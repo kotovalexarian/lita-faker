@@ -7,3 +7,45 @@ Lita::Handlers::Faker
 
 Generator of fake data such as names, addresses,
 and phone numbers for the Lita chat bot.
+
+Usage
+-----
+
+At first, see the documentation for Lita: http://docs.lita.io/
+
+### Installation
+
+Add **lita-faker** to your Lita instance's Gemfile:
+
+```ruby
+gem 'lita-faker', '~> 0.0.0'
+```
+
+### Configuration
+
+Faker requires locale. Put the following to config:
+
+```ruby
+Lita.configure do |config|
+  config.robot.locale = 'en-US'
+end
+```
+
+### Commands
+
+**lita-faker** provides all commands of [Faker](https://github.com/stympy/faker)
+which don't require arguments
+
+Commands are written in `camel_case`, so `Faker::PhoneNumber.cell_phone`
+became `faker phone_number cell_phone`
+
+`fake` is alias for `faker`
+
+### Examples
+
+```
+You: lita fake name name
+Lita: Halie Waelchi
+You: lita faker lorem sentence
+Lita: Eveniet nemo tempore voluptatem et voluptas ea.
+```
