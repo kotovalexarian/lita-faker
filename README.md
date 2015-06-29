@@ -18,7 +18,7 @@ At first, see the documentation for Lita: http://docs.lita.io/
 Add **lita-faker** to your Lita instance's Gemfile:
 
 ```ruby
-gem 'lita-faker', '~> 0.0.0'
+gem 'lita-faker', '~> 0.1.0'
 ```
 
 ### Configuration
