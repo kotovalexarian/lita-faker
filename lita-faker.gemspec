@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'github_changelog_generator', '~> 1.6'
 
   spec.add_runtime_dependency 'lita', '~> 4.4'
+  spec.add_runtime_dependency 'faker', '~> 1.4'
 end
