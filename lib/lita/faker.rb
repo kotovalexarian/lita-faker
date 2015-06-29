@@ -1,4 +1,4 @@
-require "lita/faker/version"
+require 'lita/faker/version'
 
 module Lita
   module Faker
