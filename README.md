@@ -36,7 +36,7 @@ end
 **lita-faker** provides all commands of [Faker](https://github.com/stympy/faker)
 which don't require arguments
 
-Commands are written in `camel_case`, so `Faker::PhoneNumber.cell_phone`
+Commands are written in `snake_case`, so `Faker::PhoneNumber.cell_phone`
 became `faker phone_number cell_phone`
 
 `fake` is alias for `faker`
