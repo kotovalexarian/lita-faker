@@ -6,7 +6,7 @@ Lita::Handlers::Faker
 [![Coverage Status](https://coveralls.io/repos/braiden-vasco/lita-faker/badge.svg)](https://coveralls.io/r/braiden-vasco/lita-faker)
 
 Generator of fake data such as names, addresses,
-and phone numbers for the [Lita](https://lita.io) chat bot.
+and phone numbers for the [Lita](http://lita.io) chat bot.
 
 Usage
 -----
