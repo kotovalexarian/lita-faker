@@ -21,7 +21,8 @@ module Lita
 
       def route_faker(response)
         matches = response.matches[0]
-        namespace = ::Faker.const_get(matches[0].split('_').map(&:capitalize).join.to_sym)
+        namespace = ::Faker.const_get \
+          matches[0].split('_').map(&:capitalize).join.to_sym
         command = namespace.method(matches[1].to_sym)
 
         response.reply(command.call)
